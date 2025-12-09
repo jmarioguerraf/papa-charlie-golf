@@ -8,8 +8,8 @@ https://postimg.cc/2bxDMDGw
 https://i.postimg.cc/0QTy65JL/PCGTVLOGO.png
 
 Favicon image link (ícone na aba do navegador):
-https://postimg.cc/mtYbZLfY
-https://i.postimg.cc/SN5jrRgv/1.png
+https://postimg.cc/B8HTvPpX
+https://i.postimg.cc/MGrddyjb/607deed5-395a-48c1-86cc-d89b12c327cc.png
 
 Channel image P.C.G. link:
 https://postimg.cc/K14XZWrS
