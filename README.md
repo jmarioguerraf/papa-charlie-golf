@@ -1,6 +1,6 @@
-# html-css-ze-mario-web-dev
+# html-css-canal-papa-charlie-golf
 Landing page desenvolvida por Zé Mário Guerra Web Dev
-https://linktr.ee/jmarioguerraf
+https://linktr.ee/josemarioguerra
 Cliente: Papa Charlie Golf SBRF REC - Paulo Cristiano Gonçalves
 
 Logo image link:
