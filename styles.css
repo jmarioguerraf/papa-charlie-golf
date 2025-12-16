@@ -207,7 +207,7 @@ button, .cta {
     overflow: hidden;
 }
 
-button, .cta::before {
+button, .cta ::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -218,7 +218,7 @@ button, .cta::before {
     transparent 80%
   );
   transform: translateX(-120%);
-  animation: gor-store-sweep 3.8s ease-in-out infinite;
+  animation: josemarioguerra-sweep 3.8s ease-in-out infinite;
   pointer-events: none;
 }
     
