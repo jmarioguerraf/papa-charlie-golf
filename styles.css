@@ -207,15 +207,15 @@ button, .cta {
     overflow: hidden;
 }
 
-button, .cta ::before {
+button, .cta::before {
   content: "";
-  position: absolute;
+  position: relative;
   inset: 0;
   background: linear-gradient(
     120deg,
     transparent 0%,
     rgba(255, 255, 255, 0.45) 40%,
-    transparent 80%
+    transparent: 80%
   );
   transform: translateX(-120%);
   animation: josemarioguerra-sweep 3.8s ease-in-out infinite;
@@ -233,6 +233,7 @@ button:hover {
     color: black;
     background-color: gold;
     padding: 0.5rem 1rem;
+    transparent: 80%
 
 }
 
