@@ -189,11 +189,12 @@ a.highlight:hover {
     color: rgba(255, 215, 0, 0.8);
 }
 
+/* BOTÃO CONTRIBUE TURBINADO - JMGF */
 button, .cta {
+    position: relative;
     height: 2.25rem;
     display: inline-flex;
     align-items: center;
-    position: relative;
     border-radius: 12px;
     font: inherit;
     font-size: 1rem;
@@ -202,14 +203,15 @@ button, .cta {
     border-radius: 1rem;
     padding: 0.5rem 1rem;
     box-shadow: 0 0 22px rgba(242, 203, 5, 0.7), 0 0 40px rgba(0, 0, 0, 0.6);
-    animation: josemarioguerra-pulse 2.2s ease-in-out infinite,
-               josemarioguerra-glow 6s linear infinite;
+    animation: josemarioguerra-pulse 2.2s cubic-bezier(0.43, 0, 0.58, 1) infinite,
+               josemarioguerra-glow 6s cubic-bezier(0, 0, 1, 1) infinite;
     overflow: hidden;
 }
 
+/* faixa de brilho passando por cima - JMGF */
 button, .cta::before {
   content: "";
-  position: relative;
+  position: absolute;
   inset: 0;
   background: linear-gradient(
     120deg,
@@ -218,7 +220,7 @@ button, .cta::before {
     transparent: 80%
   );
   transform: translateX(-120%);
-  animation: josemarioguerra-sweep 3.8s ease-in-out infinite;
+  animation: josemarioguerra-sweep 3.8s cubic-bezier(0.46, 0, 0.58, 1) infinite;
   pointer-events: none;
 }
 
