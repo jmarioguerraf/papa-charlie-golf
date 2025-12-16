@@ -218,7 +218,7 @@ button, .cta::before {
     transparent: 80%
   );
   transform: translateX(-120%);
-  animation: josemarioguerra-sweep 3.8s ease-in-out infinite;
+  animation: josemarioguerrapulse 3.8s ease-in-out infinite;
   pointer-events: none;
 }
     
